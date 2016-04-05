@@ -1,0 +1,1 @@
+i»W<?php exit; ?>a:1:{s:7:"content";a:7:{s:26:"ewww_image_optimizer_debug";b:1;s:27:"ewww_image_optimizer_noauto";b:1;s:33:"ewww_image_optimizer_webp_for_cdn";b:1;s:16:"members_settings";b:1;s:12:"wpseo_onpage";b:1;s:26:"woocommerce_status_options";b:1;s:27:"woocommerce_lock_down_admin";b:1;}}

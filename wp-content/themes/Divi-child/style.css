@@ -1,0 +1,44 @@
+/*
+Theme Name: Divi Child
+Theme URI: http://www.dawnmiceliwebdeveloper.com/
+Version: 0.1.0
+Description: A child theme of Elegant Themes Divi Theme.
+Author: Dawn Miceli
+Author URI: http://www.dawnmiceliwebdeveloper.com
+Template: Divi
+*********************/
+/* DMM add linkedin social icon for header and footer */
+.et-social-linkedin a:before { 
+  content: '\e09d';
+}
+/* DMM make featured image smaller on blog archive and float left */
+.et_pb_post a img {
+  height: auto; 
+  /*height: 100%; */
+  float: left;
+  width: 250px;
+  left: 0;
+  padding-right: 14px;
+}
+@media only screen and (max-width: 980px) {
+  .et_pb_post a img {
+  float:none;
+  width:100%;
+  height: auto;
+  }
+}
+
+/* DMM set background color of main content */
+#main-content {
+    background-color: #f7f5ed !important;
+} 
+
+/* DMM turn off news item title that defaults to displaying at top of page */
+.et_post_meta_wrapper {
+  display: none;
+} 
+
+/* DMM make woocommerce cart product thumbnail larger */
+.woocommerce table.cart img, .woocommerce #content table.cart img, .woocommerce-page table.cart img, .woocommerce-page #content table.cart img {
+width: auto !important;
+}
